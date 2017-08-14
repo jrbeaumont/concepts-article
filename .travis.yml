@@ -4,9 +4,9 @@ before_install:
   | tar -JxC $HOME/texlive
 script:
 - PATH=$HOME/texlive/bin/x86_64-linux:$PATH
-- tlmgr update --self
-- tlmgr install algorithmicx
-- tlmgr install algorithm
+- sudo tlmgr update --self
+- sudo tlmgr install algorithmicx
+- sudo tlmgr install algorithm
 - pdflatex Concepts
 - bibtex Concepts
 - pdflatex Concepts
