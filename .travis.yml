@@ -7,7 +7,7 @@ script:
 - tlmgr option repository http://mirror.ox.ac.uk/sites/ctan.org/systems/texlive/tlnet
 - tlmgr update --self
 - tlmgr install algorithmicx
-- tlmgr install algorithm
+- tlmgr install algorithms
 - pdflatex Concepts
 - bibtex Concepts
 - pdflatex Concepts
